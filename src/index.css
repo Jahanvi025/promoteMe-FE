@@ -1,0 +1,45 @@
+.MuiOtpInput-TextField {
+  background-color: rgba(247, 248, 255, 1);
+}
+
+.social_auth {
+  width: 100%;
+}
+
+.dotted_border {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%23333' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 13px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.audio-recorder-mic {
+  display: none;
+}
+
+.audio-recorder-timer {
+  display: none;
+}
+
+.audio-recorder-options {
+  display: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.slick-dots {
+  color: rgba(217, 217, 217, 1);
+  transition: all 0.3s ease;
+}
+
+.slick-dots li.slick-active button:before {
+  color: transparent;
+  background-image: url("./assets//svg/activeDot.svg");
+  background-size: cover;
+  background-position: center;
+}
